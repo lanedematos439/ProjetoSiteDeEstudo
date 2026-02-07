@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/duvidas.css">
+    <link rel="shortcut icon" href="../src/icone.png" type="image/x-icon">
+    <title>Videoaula - Idade Antiga</title>
+</head>
+<body>
+        <header>
+
+        <div class="nav-top">
+            
+            <a href="../index.html"><img src="../src/logo.png" alt="Logo"></a>
+            <img src="../src/icone.png" alt="Ícone">
+            
+            <div class="nav-top-chat">
+                <button class="iluminacao" onclick="toggleModo()">Alternar Tema</button>
+                <a href="https://chat.whatsapp.com/IeWzNlOPUnBDZNP6ULU51W"><img src="../src/batePapo.png" alt="Bate Papo"></a>
+                <a href="#"><img src="../src/videoChamada.png" alt="Vídeo Chamada"></a>
+                <a href="login.html"><img src="../src/perfil.png" alt="perfil"></a>
+            </div>
+            
+        </div>
+
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+
+       <nav class="nav">
+ 
+<div class="menu-wrapper">
+  <a href="#">
+    <img src="../src/nav/Questoes.png" alt="Questões" width="120">
+  </a>
+  <div class="submenu">
+    <a href="../html/questaopre.html">Pré-história</a>
+    <a href="../html/questaoantiga.html">Idade Antiga</a>
+    <a href="#">Idade Média</a>
+    <a href="#">Idade Moderna</a>
+    <a href="#">Idade Contemporânea</a>
+  </div>
+</div>
+
+<div class="menu-wrapper">
+  <a href="#">
+    <img src="../src/nav/Resumo.png" alt="Resumo" width="120">
+  </a>
+  <div class="submenu">
+    <a href="../html/resumopre.html">Pré-história</a>
+    <a href="../html/resumoantiga.html">Idade Antiga</a>
+    <a href="#">Idade Média</a>
+    <a href="#">Idade Moderna</a>
+    <a href="#">Idade Contemporânea</a>
+  </div>
+</div>
+
+<div class="menu-wrapper">
+  <a href="#">
+    <img src="../src/nav/Duvidas.png" alt="Questões" width="120">
+  </a>
+  <div class="submenu">
+    <a href="../html/duvidas-pre.html">Pré-história</a>
+    <a href="../html/duvidas-antiga.html">Idade Antiga</a>
+    <a href="#">Idade Média</a>
+    <a href="#">Idade Moderna</a>
+    <a href="#">Idade Contemporânea</a>
+  </div>
+</div>
+
+ <div class="menu-wrapper">
+  <a href="#">
+    <img src="../src/nav/Videoaula.png" alt="Videoaula" width="120">
+  </a>
+  <div class="submenu">
+    <a href="../html/videoaula-pre.html">Pré-história</a>
+    <a href="../html/videoaula-antiga.html">Idade Antiga</a>
+    <a href="#">Idade Média</a>
+    <a href="#">Idade Moderna</a>
+    <a href="#">Idade Contemporânea</a>
+  </div>
+</div>
+            
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="main-section">
+
+            <div class="main-section-indicator">
+
+                <p class="main-section-p">Idade Antiga</p>
+                <hr class="main-section-hr">
+
+            </div>
+
+        </section>
+
+        <section class="duvidas">
+                <a href="https://youtu.be/YRu9j0yIwxw?si=RLVd57Om3NbhSBbs" target="_blank"><img src="../src/videos/video-4.png" alt="video 4"></a>
+                <a href="https://youtu.be/qtCgTTxU4pI?si=V3zwnsp4saFliGsj" target="_blank"><img src="../src/videos/video-5.png" alt="video 5"></a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="rodape-conteudo">
+        <p>&copy; 2025 VozesDoTempo. Todos os direitos reservados.</p>
+        <div class="rodape-links">
+
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Ajuda</a></div>
+        </div>
+
+    </footer>
+
+    <script>
+  let modoEscuro = false;
+
+ 
+  window.onload = function () {
+    const temaSalvo = localStorage.getItem("modo");
+    if (temaSalvo === "dark") {
+      modoEscuro = true;
+    }
+    aplicarTema();
+  };
+
+  function toggleModo() {
+    modoEscuro = !modoEscuro;
+    localStorage.setItem("modo", modoEscuro ? "dark" : "light");
+    aplicarTema();
+  }
+
+  function aplicarTema() {
+    document.body.classList.toggle('dark-mode', modoEscuro);
+    document.body.classList.toggle('light-mode', !modoEscuro);
+
+    document.getElementById("img-questoes").src = modoEscuro ? "src/nav/Questoes-dark.png" : "src/nav/Questoes.png";
+    document.getElementById("img-resumo").src = modoEscuro ? "src/nav/Resumo-dark.png" : "src/nav/Resumo.png";
+    document.getElementById("img-duvidas").src = modoEscuro ? "src/nav/Duvidas-dark.png" : "src/nav/Duvidas.png";
+    document.getElementById("img-videoaula").src = modoEscuro ? "src/nav/Videoaula-dark.png" : "src/nav/Videoaula.png";
+  }
+
+  const menuToggle = document.getElementById('menuToggle');
+  const nav = document.querySelector('.nav');
+
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+</body>
+</html>   
