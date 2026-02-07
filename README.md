@@ -22,5 +22,24 @@ A proposta do projeto é tornar o estudo mais acessível, interativo e estrutura
 Este projeto foi desenvolvido em grupo durante meu segundo ano de curso com o objetivo de adquirir experiência prática na construção de uma aplicação web real, com múltiplas funcionalidades e foco na experiência do usuário.
 Ao longo do desenvolvimento, participei das etapas de planejamento, estruturação e implementação do sistema, lidando com desafios comuns ao desenvolvimento de software.
 
+# Minhas contribuições
+
+Minhas contribuições
+
+- Desenvolvimento da funcionalidade de questões para apoio aos estudos
+- Implementação da área de mapas mentais, contribuindo para a organização visual do conteúdo
+- Criação do sistema de alternância entre modo claro e modo escuro, melhorando a experiência do usuário
+- Estruturação do rodapé do site, garantindo navegação mais completa e acesso rápido às informações importantes
+- Apresentação do projeto, comunicando as decisões e funcionalidades desenvolvidas pela equipe
+
+# Equipe
+
+Maria Ester - https://github.com/Mesterab14
+Eric Lima - https://github.com/Eric-Desenvolvedor
+Ana Jéssica - https://github.com/iJessyh
+Ana Júlia - https://github.com/Juneruby0
+Dávila Maria - 
+Isac Pontes -
+
 # Acesse o projeto: 
 https://lanedematos439.github.io/ProjetoSiteDeEstudo/
