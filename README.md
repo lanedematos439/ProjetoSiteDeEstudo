@@ -20,11 +20,9 @@ A proposta do projeto é tornar o estudo mais acessível, interativo e estrutura
 # Objetivo do projeto
 
 Este projeto foi desenvolvido em grupo durante meu segundo ano de curso com o objetivo de adquirir experiência prática na construção de uma aplicação web real, com múltiplas funcionalidades e foco na experiência do usuário.
-Ao longo do desenvolvimento, participei das etapas de planejamento, estruturação e implementação do sistema, lidando com desafios comuns ao desenvolvimento de software.
+Ao longo do desenvolvimento, participei das etapas de planejamento, estruturação e implementação do sistema.
 
 # Minhas contribuições
-
-Minhas contribuições
 
 - Desenvolvimento da funcionalidade de questões para apoio aos estudos
 - Implementação da área de mapas mentais, contribuindo para a organização visual do conteúdo
