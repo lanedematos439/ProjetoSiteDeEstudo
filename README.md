@@ -23,3 +23,4 @@ Este projeto foi desenvolvido em grupo durante meu segundo ano de curso com o ob
 Ao longo do desenvolvimento, participei das etapas de planejamento, estruturação e implementação do sistema, lidando com desafios comuns ao desenvolvimento de software.
 
 # Acesse o projeto: 
+https://lanedematos439.github.io/ProjetoSiteDeEstudo/
