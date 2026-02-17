@@ -37,7 +37,6 @@ Eric Lima - https://github.com/Eric-Desenvolvedor
 Ana Jéssica - https://github.com/iJessyh
 Ana Júlia - https://github.com/Juneruby0
 Dávila Maria - 
-Isac Pontes -
 
 # Acesse o projeto: 
 https://lanedematos439.github.io/ProjetoSiteDeEstudo/
